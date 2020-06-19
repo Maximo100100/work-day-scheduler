@@ -18,7 +18,9 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" 
+    />
+
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,9 +32,96 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <!-- found this in a yt video couldnt figure out how to 
+      produce this with jquery -->
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <div class="input-group">
+            <div class="time-block">
+              <span class="hour">09:00 AM</span>
+            </div>
+              <textarea class="form-control info description" aria-label="With textarea" id="9am-events"></textarea>
+            <div class="input-group-append">
+              <button class="saveBtn local" type="button" data-id="9am" ><p class="my-auto">save</p></button>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="time-block">
+              <span class="hour">10:00 AM</span>
+            </div>
+            <textarea class="form-control info description" aria-label="With textarea" id="10am-events"></textarea>
+            <div class="input-group-append">
+              <button class="saveBtn local" type="button"  data-id="10am" ><p class="my-auto">save</p></button>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="time-block">
+              <span class="hour">11:00 AM</span>
+            </div>
+              <textarea class="form-control info description" aria-label="With textarea" id="11am-events"></textarea>
+            <div class="input-group-append">
+              <button class="saveBtn local" type="button" data-id="11am"><p class="my-auto">save</p></button>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="time-block">
+              <span class="hour">12:00 PM</span>
+            </div>
+            <textarea class="form-control info description" aria-label="With textarea" id="12pm-events"></textarea>
+            <div class="input-group-append">
+              <button class="saveBtn local" type="button" data-id="12pm"><p class="my-auto">save</p></button>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="time-block">
+              <span class="hour">01:00 PM</span>
+            </div>
+              <textarea class="form-control info description" aria-label="With textarea" id="1pm-events"></textarea>
+            <div class="input-group-append">
+              <button class="saveBtn local" type="button" data-id="1pm"><p class="my-auto">save</p></button>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="time-block">
+              <span class="hour">02:00 PM</span>
+            </div>
+              <textarea class="form-control info description" aria-label="With textarea" id="2pm-events"></textarea>
+            <div class="input-group-append">
+              <button class="saveBtn local" type="button" data-id="2pm"><p class="my-auto">save</p></button>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="time-block">
+              <span class="hour">03:00 PM</span>
+            </div>
+              <textarea class="form-control info description" aria-label="With textarea" id="3pm-events"></textarea>
+            <div class="input-group-append">
+              <button class="saveBtn local" type="button" data-id="3pm"><p class="my-auto">save</p></button>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="time-block">
+              <span class="hour">04:00 PM</span>
+            </div>
+              <textarea class="form-control info" aria-label="With textarea" id="4pm-events"></textarea>
+            <div class="input-group-append">
+              <button class="saveBtn local" type="button" data-id="4pm"><p class="my-auto">save</p></button>
+            </div>
+          </div>
+          <div class="input-group">
+            <div class="time-block">
+              <span class="hour">05:00 PM</span>
+            </div>
+            <textarea class="form-control info" aria-label="With textarea" id="5pm-events"></textarea>
+            <div class="input-group-append">
+              <button class="saveBtn local" type="button" data-id="5pm"><p class="my-auto">save</p></button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
