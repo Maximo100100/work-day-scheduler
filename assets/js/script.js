@@ -1,4 +1,4 @@
-//  this single line of code saved my life 
+// his single line of code saved my life
 $(document).ready(function () {
 
 var now = moment().format('dddd, MMM Do YYYY');
